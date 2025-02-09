@@ -1,20 +1,19 @@
-.caroussel{
+.caroussel {
   overflow: hidden;
-  cursor: grab;
+  cursor: grab; 
+  margin: 150px 50px;
 }
-
-.inner-caroussel{
+.inner-caroussel {
   display: flex;
 }
-.item{
+.item {
   min-height: 25rem;
   min-width: 20rem;
   padding: 40px 20px;
 }
-.item img{
+.item img {
   width: 100%;
   height: 100%;
   border-radius: 2rem;
   pointer-events: none;
-
 }
